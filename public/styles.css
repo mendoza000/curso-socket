@@ -1,0 +1,26 @@
+#mensajesContainer{
+	border: 3px solid tomato;
+	border-radius: 10px;
+	min-height: 5em;
+	padding: 3em 1em;
+}
+.meMensaje{
+	text-align: right;
+	background: skyblue;
+	padding: 0.5em 1em;
+	border-radius: 10px;
+	max-width: 50%;
+	display: flex;
+	margin-left: auto;
+	justify-content: flex-end;
+}
+.theMensaje{
+	text-align: right;
+	background: tomato;
+	padding: 0.5em 1em;
+	border-radius: 10px;
+	max-width: 50%;
+	display: flex;
+	margin-right: auto;
+	justify-content: flex-start;
+}
